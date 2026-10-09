@@ -30,8 +30,6 @@
 - `twitch.tv`：读取聊天文字并显示译文。
 - `translate.googleapis.com`：调用 Google 翻译。
 
-扩展没有 DeepSeek、DeepL 或其他需要 API Key 的接口。
-
 ## 注意
 
 - 请停用脚本猫/篡改猴中的旧版，避免重复翻译。
