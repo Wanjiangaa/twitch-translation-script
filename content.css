@@ -1,0 +1,7 @@
+.tt-edge-translation {
+  color: var(--tt-edge-color, #bf94ff) !important;
+  display: inline;
+  font-weight: 700;
+  margin-left: 0.45rem;
+  overflow-wrap: anywhere;
+}
