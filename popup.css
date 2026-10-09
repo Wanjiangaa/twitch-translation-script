@@ -1,0 +1,11 @@
+:root { color-scheme: dark; font-family: "Segoe UI", sans-serif; }
+body { width: 300px; margin: 0; background: #18181b; color: #efeff1; }
+main { padding: 16px; }
+h1 { margin: 0; font-size: 18px; }
+.provider { margin: 4px 0 14px; color: #adadb8; font-size: 12px; }
+label { display: grid; gap: 6px; margin: 12px 0; font-size: 13px; font-weight: 600; }
+.toggle { display: flex; align-items: center; gap: 8px; }
+input, select { box-sizing: border-box; width: 100%; border: 1px solid #53535f; border-radius: 6px; padding: 8px; background: #27272a; color: #fff; }
+input[type="checkbox"] { width: auto; }
+input[type="color"] { height: 38px; padding: 3px; }
+#status { min-height: 18px; margin-top: 10px; color: #77e5a8; font-size: 12px; }
