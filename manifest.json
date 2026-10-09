@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Twitch Chat 中文翻译",
+  "version": "1.0.0",
+  "description": "使用 Google 翻译自动将 Twitch 聊天翻译为中文。",
+  "permissions": ["storage"],
+  "host_permissions": ["https://translate.googleapis.com/*"],
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_title": "Twitch Chat 中文翻译",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.twitch.tv/*", "https://dashboard.twitch.tv/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}
